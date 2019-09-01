@@ -5,5 +5,14 @@
 </head>
 <body>
     <h1>Item ID: {{ id }}</h1>
+    <div id="like_button_container"></div>
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script src="{{ url_for('static', path='/like_button.js') }}"></script>
 </body>
 </html>
