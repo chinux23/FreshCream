@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "/Users/huangchen/.webenv/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
+}
